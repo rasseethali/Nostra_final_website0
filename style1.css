@@ -1,0 +1,608 @@
+* {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#st_sign-up {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #01173b;
+    padding: 2px;
+    color: white;
+}
+
+#sign-upx {
+    cursor: pointer;
+}
+
+.menu-btn {
+    display: none;
+    background: none;
+    border: 2px solid #444;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+#nostra {
+    font-size: 20px;
+    color: black;
+
+}
+
+#nostra_subtitle {
+    display: flex;
+    font-weight: 400;
+    width: 100%;
+    justify-content: right;
+    gap: 50px;
+
+
+}
+
+.home {
+    text-decoration: none;
+    color: grey;
+}
+
+.home:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.arrival {
+    text-decoration: none;
+    color: grey;
+}
+
+.arrival:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.wanted {
+    text-decoration: none;
+    color: grey;
+}
+
+.wanted:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.collection {
+    text-decoration: none;
+    color: grey;
+}
+
+.contact {
+    text-decoration: none;
+    color: grey;
+}
+
+.contact:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#offer_image1 img {
+    width: 100%;
+    box-shadow: 0px 0px 5px;
+}
+
+#offer_image {
+    position: relative;
+    justify-content: center;
+}
+
+#offer_content_all {
+    justify-content: center;
+}
+
+
+#offer_image_content h1 {
+    position: absolute;
+    top: 60px;
+    left: 390px;
+}
+
+#offer_image_content p {
+    position: absolute;
+    top: 180px;
+    left: 690px;
+    color: white;
+}
+
+#offer_image_content button {
+    position: absolute;
+    top: 220px;
+    left: 720px;
+}
+
+#offer_image_heading h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#offer_image_heading p {
+    color: rgb(250, 246, 246);
+}
+
+
+#brands {
+    font-weight: bold;
+    margin-top: 70px;
+    font-size: xx-large;
+}
+
+#brand_offer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: space-around;
+
+}
+
+.puma {
+    font-size: xx-large;
+    margin-top: 30px;
+}   
+
+#best_customer {
+    display: flex;
+    margin-top: 60px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.Best {
+    font-size: xx-large;
+}
+
+#best_offer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.original_products {
+    background-color: rgba(242, 244, 247, 255);
+    width: 220px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.new_arrival {
+    background-color: rgba(242, 244, 247, 255);
+    width: 220px;
+    margin-top: 40px;
+    padding: 20px;
+
+}
+
+.satisfaction_guarantee {
+    background-color: rgba(242, 244, 247, 255);
+    width: 220px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.free_shipping {
+    background-color: rgba(242, 244, 247, 255);
+    width: 220px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+#New_Arrivals {
+    margin-top: 30px;
+    font-size: xx-large;
+}
+
+#shirts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+#shirt_collection1 {
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    position: relative;
+    background-color: grey;
+    opacity: 0.7;
+
+
+}
+
+#shirt_collection1_shopnow1 {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 15px;
+    position: absolute;
+    top: 135px;
+    right: 95px;
+}
+
+#shirt_collection2 {
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    background-color: grey;
+    opacity: 0.7;
+}
+
+#shirt_collection1_shopnow2 {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 15px;
+    position: absolute;
+    top: 135px;
+    right: 95px;
+}
+
+#shirt_collection3 {
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    background-color: grey;
+    opacity: 0.7;
+    position: relative;
+}
+
+#shirt_collection1_shopnow3 {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 15px;
+    position: absolute;
+    top: 135px;
+    right: 95px;
+}
+
+#shirt_collection4 {
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    position: relative;
+    background-color: grey;
+    opacity: 0.7;
+}
+
+#shirt_collection1_shopnow4 {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 15px;
+    position: absolute;
+    top: 135px;
+    right: 95px;
+}
+
+#most_wanted {
+    margin-top: 30px;
+    font-size: xx-large;
+
+}
+
+#most_wanted_shirts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+    justify-content: space-around;
+    position: relative;
+}
+
+#sale1 {
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    position: absolute;
+    top: 5px;
+}
+
+#sale2 {
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    position: absolute;
+    top: 5px;
+
+}
+
+#sale3 {
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    position: absolute;
+    top: 5px;
+}
+
+#sale4 {
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    position: absolute;
+    top: 5px;
+}
+
+#limited_offer {
+    background-color: #01173b;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.limited_offer_box {
+    padding: 20px;
+}
+
+.limited_heading {
+    color: white;
+    font-weight: 900;
+}
+
+.limited_desc {
+    color: white;
+    font-weight: 900;
+    font-size: larger;
+}
+
+
+#limited_button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+#join_our_news_head {
+    justify-items: center;
+    width: 100%;
+}
+
+.join_our_news {
+    justify-items: center;
+}
+
+.join_our_news h1 {
+    font-size: xx-large;
+}
+
+.input {
+    text-align: center;
+}
+
+.input_box {
+    width: 550px;
+    border: solid black 2px;
+    padding: 5px;
+}
+
+.button {
+    text-align: center;
+    padding: 5px;
+}
+
+.subscribe {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+}
+
+#footer {
+    background-color: #01173b;
+    height: 240px;
+    width: 100%;
+}
+
+.nostra_footer {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.nostra_heading {
+    color: white;
+
+}
+
+.nostra_desc {
+    color: white;
+    padding-top: 5px;
+}
+
+#nostra_icons {
+    display: flex;
+    gap: 60px;
+    padding-top: 10px;
+}
+
+.nostra_footer_name {
+    color: white;
+    padding-top: 15px;
+}
+
+
+@media only screen and (max-width: 600px){
+    #st_sign-up {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: #01173b;
+        padding: 2px;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #sign-upx {
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #nostra {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #nostra_subtitle {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 150px;
+        padding: 10px;
+
+    }
+
+    .menu-btn {
+        display: block;
+
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #offer_image1 {
+        width: 100% ;
+        box-shadow:("0px 0px 5px");
+    }
+
+    #offer_image {
+        position: relative;
+
+    }
+
+    #offer_image_heading h1 {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        position: absolute;
+        font-weight: 600;
+        top: 40px;
+        left: 160px;
+
+    }
+}
+
+@media only screen and (max-width: 600px){
+
+    #offer_image_heading p {
+        color: rgb(255, 255, 255);
+        font-size: 10px;
+        position: absolute;
+        font-weight: 100;
+        top: 80px;
+        left: 250px;
+    }
+
+    #offer_image_heading button {
+        color: rgb(0, 0, 0);
+        font-size: 10px;
+        position: absolute;
+        font-weight: 100;
+        top: 110px;
+        left: 260px;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #brands {
+        font-size: medium;
+        font-weight: 500;
+    }
+}
+@media only screen and (max-width: 600px){
+
+    #brand_offer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+}
+
+@media screen and (max-width:600px){
+    #best_customer{
+        font-size: medium;
+        font-weight: 300;
+        display: flex;
+        column-gap: 30px;
+    }
+}
+
+@media screen and (max-width:600px){
+    #New_Arrivals{
+    font-size: medium;
+    font-weight: 500;
+    }
+    
+   
+    }
+    @media screen and (max-width:600px){
+     #most_wanted{
+         font-size: medium;
+    font-weight: 500;
+     }
+      #sale1,#sale2,#sale3,#sale4{
+        display: none;
+        
+      }
+
+    }
+
+    @media screen and (max-width:600px){
+        #limited_offer img {
+            display: none;
+        }
+    }
+        
+    
+    
+
+
+
+
+    
+
+

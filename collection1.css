@@ -1,0 +1,59 @@
+#sidebar{
+  display: flex;
+   gap: 100px;
+   height: 150vh;
+  
+   justify-content: center;
+  
+   
+}
+
+#product{
+    display: flex;
+    
+}
+#search-bar{
+    width: 1230px;
+    padding: 8px;
+    border-radius: 10px;
+    border-radius: solid black ;
+    margin: 6px;
+}
+
+#sidebar_occassion_topic{
+    font-weight: 500;
+    font-size: x-large;   
+}
+
+#sidebar_color_topic{
+    font-weight: 500;
+    font-size: x-large;
+}
+#sidebar_arrivals_topic{
+     font-weight: 500;
+    font-size: x-large;
+}
+
+#product-over-image{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+     gap: 40px;
+     justify-content: center;
+}
+.product-image1{
+    width: 350px;
+   
+}
+.product-image2{
+    width: 350px;
+   
+}
+.product-image3{
+    width: 350px;
+   
+}
+.product-image4{
+    width: 350px;
+   
+}
