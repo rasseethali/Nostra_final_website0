@@ -1,11 +1,7 @@
 #sidebar{
   display: flex;
-   gap: 100px;
-   height: 150vh;
-  
+   gap: 90px;
    justify-content: center;
-  
-   
 }
 
 #product{
@@ -57,3 +53,166 @@
     width: 350px;
    
 }
+
+
+
+
+
+/* Responsive but keep layout side-by-side */
+@media only screen and (max-width: 600px) {
+    /* Sidebar + product still in one row */
+    #product {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    /* Sidebar smaller but still on left */
+    #sidebar {
+        flex: 0 0 50px; 
+        padding: 8px;
+        font-size: 12px;
+        border-right: 1px solid #ccc; 
+    }
+
+    /* Remove the old HR that pushes things down */
+    #vr_line {
+        display: none;
+    }
+
+    #sidebar h1 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    /* Product container */
+    #product-over {
+        flex: 1 1 auto;
+        padding: 8px;
+    }
+
+    /* Make products in a 2-column grid */
+    #product-over-image {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    /* Product card styling */
+    #product-over-image > div {
+        text-align: center;
+    }
+
+    /* Shrink product images for phone */
+    .product-image1,
+    .product-image2,
+    .product-image3,
+    .product-image4 {
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+        object-fit: cover;
+
+    }
+
+    /* Search bar fits smaller space */
+    #search-bar {
+        width: 440px;
+        font-size: 12px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .product-section1 h1 , .product-section2 h1 ,.product-section3 h1 ,.product-section4 h1 {
+       font-size: medium;
+       font-weight: 500;
+    }
+
+    /* Top banner smaller text */
+    #st_sign-up {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    /* Navbar tweaks */
+    #nostra {
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  /* Show menu button */
+  .menu-btn {
+    display: block;
+    margin: 0 auto; /* center button */
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+   
+    border: none;
+    cursor: pointer;
+  }
+  #closenav{
+    display: inline-block;
+  }
+  #nostra{
+    display: flex;
+    gap:480px;
+  }
+  
+
+  /* Sidebar hidden off-screen */
+  #nostra_subtitle {
+    position: fixed;
+    top: 0;
+    right: -80%;
+    width: 70%;
+    height: 100vh;
+    background: #ffffff;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: -4px 0 10px rgba(0,0,0,0.2);
+    transition: right 0.3s ease;
+    z-index: 1000;
+  }
+
+  /* Open state */
+  #nostra_subtitle.open {
+    right: 0;
+  }
+
+  /* Close button */
+  .close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    align-self: flex-end;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+
+  /* Navigation list vertical */
+  #nostra_subtitle ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #nostra_subtitle a {
+    text-decoration: none;
+    color: #222;
+    padding: 8px;
+    display: block;
+  }
+
+  #nostra_subtitle a:hover {
+    background: #ffffff;
+    border-radius: 5px;
+  }
+}
+

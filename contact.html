@@ -1,202 +1,113 @@
-<style>
-
-  
-
-   
-</style>
-
-<!DOCTYPE html>
-<html lang="en">
-
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Young+Serif&display=swap"
-        rel="stylesheet">
-    <!--my style sheet-->
-    <link rel="stylesheet" href="style.css">
-    
-    <!-- font aweome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Nostra</title>
-</head>
-
-<body>
-    <section id="navbar" style="text-align: center;">
-        <div id="nostra">
-            <h1>Nostra</h1>
-        </div>
-
-        <div id="nostra_subtitle" style="padding-right: 100px;">
-            <a class="home" href="index.html">Home</a>
-            <a class="arrival" href="index.html">New Arrivals</a>
-            <a class="wanted" href="index.html">Most Wanted</a>
-            <a class="collection"href="collection.html" >Collections</a>
-            <a class="contact" href="contact.html">Contact Us</a>
-        </div>
-
-    </section>
-
-
-
-
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contact Form</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color:white; 
-      justify-content: center;
-      align-items: center;
-      margin: 0;
-    }
-
-    .contact-form {
-      background-color: #fff;
-      padding: 30px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      max-width: 700px;
-     
-    }
-
-    .contact-form h2 {
-      margin-bottom: 20px;
-      font-size: 24px;
-      text-align: center;
-    }
-
-    .form-group {
-      margin-bottom: 15px;
-    }
-
-    .form-group label {
-      display: block;
-      margin-bottom: 6px;
-      font-weight: bold;
-    }
-
-    .form-group input,
-    .form-group textarea {
-      width: 100%;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      font-size: 14px;
-    }
-
-    .form-group textarea {
-      resize: vertical;
-      height: 100px;
-    }
-
-    .form-group button {
-      background-color: #4CAF50;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      font-size: 16px;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-
-    .form-group button:hover {
-      background-color: #45a049;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Young+Serif&display=swap"
+    rel="stylesheet">
+  <!--my style sheet-->
+  <link rel="stylesheet" href="contact.css">
+ <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="collection1.css">
+  <!-- font aweome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Nostra</title>
 </head>
+
 <body>
+  <section id="navbar" style="text-align: center;">
+    <div id="nostra">
+      <h1>Nostra</h1>
+        <button id="menu-btn" class="menu-btn">☰ </button>
+    </div>
 
-  <div class="contact-form">
-    <h2>Contact Us</h2>
-    <form action="#" method="post">
-      <div class="form-group">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
-      </div>
+    <div id="nostra_subtitle" >
+       <button id="closenav" class="close-btn">×</button>
+      <a class="home" href="index1.html">Home</a>
+      <a class="arrival" href="index1.html">New Arrivals</a>
+      <a class="wanted" href="index1.html">Most Wanted</a>
+      <a class="collection" href="collection1.html">Collections</a>
+      <a class="contact" href="contact.html">Contact Us</a>
+    </div>
 
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
-      </div>
-
-      <div class="form-group">
-        <label for="subject">Subject</label>
-        <input type="text" id="subject" name="subject">
-      </div>
-
-      <div class="form-group">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" required></textarea>
-      </div>
-
-      <div class="form-group">
-        <button type="submit">Send Message</button>
-      </div>
-    </form>
-  </div>
-
-</body>
-</html>
-
-
-
- 
+    </section>
     
+    <body>
+
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <form action="#" method="post" class="contact-form">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write your message..." rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+    </div>
+
 
 
     <!-------------------------------Footer----------------------------->
+    
     <section id="footer">
 
-        <div class="nostra_heading">
-            <h1>Nostra</h1>
-        </div>
-
-        <div class="nostra_desc">
-            The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest.
-        </div>
-
-        <div id="nostra_icons">
-
-            <div class="nostra_insta">
-                <i class="fa-brands fa-instagram" style="color: #f2f4f6;"></i>
+        <div class="nostra_footer">
+            <div class="nostra_heading">
+                <h1>Nostra</h1>
             </div>
 
-            <div clas="nostra_twitter">
-                <i class="fa-brands fa-twitter" style="color: #fdfafa;"></i>
+            <div class="nostra_desc">
+                The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest.
             </div>
 
-            <div clas="nostra_facebook">
-                <i class="fa-brands fa-facebook" style="color: #faf9f9;"></i>
+            <div id="nostra_icons">
+
+                <div class="nostra_insta">
+                    <i class="fa-brands fa-instagram" style="color: #f2f4f6;"></i>
+                </div>
+
+                <div clas="nostra_twitter">
+                    <i class="fa-brands fa-twitter" style="color: #fdfafa;"></i>
+                </div>
+
+                <div clas="nostra_facebook">
+                    <i class="fa-brands fa-facebook" style="color: #faf9f9;"></i>
+                </div>
+
             </div>
 
-        </div>
-
-        <div class="nostra_footer_name">
-            <h1>@ 2025 Nostra.com</h1>
+            <div class="nostra_footer_name">
+                <h1>@ 2025 Nostra.com</h1>
+            </div>
         </div>
     </section>
 
 
 
 
-    <script src="index.js">
-         
+    <script src="index1.js">
+
+    </script>
+    <script src="contact.js">
+
     </script>
 
 </body>
 
 </html>
-
-
-

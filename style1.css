@@ -27,6 +27,9 @@
     border-radius: 5px;
     cursor: pointer;
 }
+#closenav{
+    display: none;
+}
 
 #navbar {
     display: flex;
@@ -95,6 +98,17 @@
 .contact:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+
+
+.menu-btn {
+    display: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    background: #333;
+    color: white;
+    border: none;
 }
 
 #offer_image1 img {
@@ -455,6 +469,16 @@
     padding-top: 15px;
 }
 
+#nostra_subtitle {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-btn {
+  display: none; /* hidden on desktop */
+}
+
+
 
 @media only screen and (max-width: 600px){
     #st_sign-up {
@@ -472,34 +496,82 @@
         cursor: pointer;
     }
 }
-
 @media only screen and (max-width: 600px) {
-    #nostra {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        justify-content: space-between;
 
-    }
+  /* Show menu button */
+  .menu-btn {
+    display: block;
+    margin: 0 auto; /* center button */
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+   
+    border: none;
+    cursor: pointer;
+  }
+  #closenav{
+    display: inline-block;
+  }
+  #nostra{
+    display: flex;
+    gap:480px;
+  }
+  
+
+  /* Sidebar hidden off-screen */
+  #nostra_subtitle {
+    position: fixed;
+    top: 0;
+    right: -80%;
+    width: 70%;
+    height: 100vh;
+    background: #ffffff;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: -4px 0 10px rgba(0,0,0,0.2);
+    transition: right 0.3s ease;
+    z-index: 1000;
+  }
+
+  /* Open state */
+  #nostra_subtitle.open {
+    right: 0;
+  }
+
+  /* Close button */
+  .close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    align-self: flex-end;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+
+  /* Navigation list vertical */
+  #nostra_subtitle ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #nostra_subtitle a {
+    text-decoration: none;
+    color: #222;
+    padding: 8px;
+    display: block;
+  }
+
+  #nostra_subtitle a:hover {
+    background: #ffffff;
+    border-radius: 5px;
+  }
 }
 
-@media only screen and (max-width: 600px) {
-    #nostra_subtitle {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 20px;
-        width: 150px;
-        padding: 10px;
 
-    }
-
-    .menu-btn {
-        display: block;
-
-    }
-}
 
 @media only screen and (max-width: 600px){
     #offer_image1 {
