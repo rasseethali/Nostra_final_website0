@@ -59,7 +59,7 @@
 
 
 /* Responsive but keep layout side-by-side */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 828px) {
     /* Sidebar + product still in one row */
     #product {
         display: flex;
@@ -109,7 +109,7 @@
     .product-image2,
     .product-image3,
     .product-image4 {
-        width: 100%;
+        width: 95%;
         max-width: 150px;
         height: auto;
         object-fit: cover;
@@ -118,7 +118,7 @@
 
     /* Search bar fits smaller space */
     #search-bar {
-        width: 440px;
+        width: 95%;
         font-size: 12px;
         padding: 5px;
         border-radius: 5px;
@@ -132,6 +132,7 @@
     #st_sign-up {
         font-size: 12px;
         padding: 4px;
+        width: 97%;
     }
 
     /* Navbar tweaks */
@@ -141,7 +142,7 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 828px) {
 
   /* Show menu button */
   .menu-btn {
@@ -149,19 +150,15 @@
     margin: 0 auto; /* center button */
     padding: 10px 15px;
     font-size: 18px;
-    background-color: white;
+    background-color: transparent;
     color: black;
-   
     border: none;
     cursor: pointer;
   }
   #closenav{
     display: inline-block;
   }
-  #nostra{
-    display: flex;
-    gap:480px;
-  }
+  
   
 
   /* Sidebar hidden off-screen */
@@ -213,6 +210,10 @@
   #nostra_subtitle a:hover {
     background: #ffffff;
     border-radius: 5px;
+  }
+
+  #footer{
+    background-size: 100%;
   }
 }
 

@@ -51,6 +51,7 @@
     width: 100%;
     justify-content: right;
     gap: 50px;
+   
 
 
 }
@@ -479,47 +480,51 @@
 }
 
 
-
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 828px){
     #st_sign-up {
         display: flex;
         justify-content: center;
-        width: 100%;
+        width: 97%;
         background-color: #01173b;
         padding: 2px;
         color: white;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 828px) {
     #sign-upx {
         cursor: pointer;
     }
 }
-@media only screen and (max-width: 600px) {
 
+@media only screen and (max-width: 828px) {
   /* Show menu button */
   .menu-btn {
     display: block;
-    margin: 0 auto; /* center button */
+    margin: 0 auto; 
     padding: 10px 15px;
     font-size: 18px;
-    background-color: white;
+    background-color: transparent;
     color: black;
-   
     border: none;
     cursor: pointer;
+    
+  }
+  #navbar{
+    width: 100%;
+   
   }
   #closenav{
     display: inline-block;
   }
   #nostra{
-    display: flex;
-    gap:480px;
-  }
+   display: flex;
+   gap: 280px;
   
+   
+  }
 
-  /* Sidebar hidden off-screen */
+  /* Sidebar */
   #nostra_subtitle {
     position: fixed;
     top: 0;
@@ -534,12 +539,10 @@
     z-index: 1000;
   }
 
-  /* Open state */
   #nostra_subtitle.open {
     right: 0;
   }
 
-  /* Close button */
   .close-btn {
     background: none;
     border: none;
@@ -549,7 +552,6 @@
     margin-bottom: 15px;
   }
 
-  /* Navigation list vertical */
   #nostra_subtitle ul {
     list-style: none;
     padding: 0;
@@ -571,70 +573,38 @@
   }
 }
 
-
-
-@media only screen and (max-width: 600px){
-    #offer_image1 {
-        width: 100% ;
-        box-shadow:("0px 0px 5px");
-    }
-
-    #offer_image {
-        position: relative;
-
-    }
-
+@media only screen and (max-width: 828px){
     #offer_image_heading h1 {
-        color: rgb(255, 255, 255);
         font-size: 20px;
-        position: absolute;
         font-weight: 600;
-        top: 40px;
-        left: 160px;
-
+        top: 20px;
+        left: 55px;
     }
 }
 
-@media only screen and (max-width: 600px){
-
+@media only screen and (max-width: 828px){
     #offer_image_heading p {
-        color: rgb(255, 255, 255);
         font-size: 10px;
-        position: absolute;
         font-weight: 100;
-        top: 80px;
-        left: 250px;
+        top: 60px;
+        left: 150px;
     }
 
     #offer_image_heading button {
-        color: rgb(0, 0, 0);
         font-size: 10px;
-        position: absolute;
-        font-weight: 100;
-        top: 110px;
-        left: 260px;
-
+        top: 90px;
+        left: 165px;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 828px) {
     #brands {
         font-size: medium;
         font-weight: 500;
     }
 }
-@media only screen and (max-width: 600px){
 
-    #brand_offer {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    
-
-}
-}
-
-@media screen and (max-width:600px){
+@media screen and (max-width:828px){
     #best_customer{
         font-size: medium;
         font-weight: 300;
@@ -643,38 +613,62 @@
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:828px){
     #New_Arrivals{
-    font-size: medium;
-    font-weight: 500;
+        font-size: medium;
+        font-weight: 500;
     }
-    
-   
+    #most_wanted{
+        font-size: medium;
+        font-weight: 500;
     }
-    @media screen and (max-width:600px){
-     #most_wanted{
-         font-size: medium;
-    font-weight: 500;
-     }
-      #sale1,#sale2,#sale3,#sale4{
+    #sale1,#sale2,#sale3,#sale4{
         display: none;
-        
-      }
+    }
+}
+
+@media screen and (max-width:828px){
+    #limited_offer img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:828px) {
+    .join_our_news h1{
+        font-size: larger;
+        font-weight: 400;
 
     }
-
-    @media screen and (max-width:600px){
-        #limited_offer img {
-            display: none;
-        }
+    .join_our_news p{
+        font-size: small;
+        font-weight: 100;
     }
-        
-    
-    
-
-
-
-
-    
-
-
+    .input_box{
+        width: 100%;
+    }
+}
+@media screen and (max-width:828px){
+    .limited_heading{
+        font-size: larger;
+        font-weight: 900;
+        text-align: center;
+    }
+    .limited_desc{
+        font-size: medium;
+        font-weight: 400;
+        text-align: center;
+    }
+    #limited_button{
+        border-radius: 5px;
+         box-shadow: 0px 0px 3px;  
+    }
+    .limited_offer2 {
+    text-align: center; 
+    margin-bottom: 5px;
+   
+  
+    }
+    #footer{
+        display: block;
+    }
+}
